@@ -12,7 +12,7 @@ spec:
         env: prod
     spec:
       containers:
-      - image: nginx
+      - image: httpd
         name: sample-containers
         ports:
         - containerPort: 80
